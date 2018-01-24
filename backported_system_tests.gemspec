@@ -1,7 +1,6 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "backported_system_tests/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "backported_system_tests"
@@ -13,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{This gem backports the work the great contributors of
     Rails have done for getting System Tests on Rails 5.1. This helps to ease the upgrade
     path for applications that are larger.}
-  spec.homepage      = "http://andrewfomera.com"
+  spec.homepage      = "https://github.com/king601/backported_system_tests"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
