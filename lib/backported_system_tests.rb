@@ -1,5 +1,3 @@
-require "backported_system_tests/version"
-
 module BackportedSystemTests
-  # Your code goes here...
+  VERSION = "0.1.0".freeze
 end
